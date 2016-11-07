@@ -2,7 +2,7 @@
 
 Schedule updates elastic search index data  
 
-ex:dev server to production server   
+ex:dev to production 
 
 run docker:  
 docker run -itd bowwow/sync-els  
