@@ -1,6 +1,8 @@
-# elastic-sync-autobuild
-- dev server to production server 
+# elastic-sync-autobuild  
+
 Schedule updates elastic search index data  
+
+ex:dev server to production server   
 
 run docker:  
 docker run -itd bowwow/sync-els  
