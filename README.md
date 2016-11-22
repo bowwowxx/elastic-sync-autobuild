@@ -4,8 +4,11 @@ Schedule updates elastic search index data
 
 ex:dev to production 
 
-run docker:  
+run docker(scheduler):  
 docker run -itd bowwow/sync-els  
+
+run docker(now):
+docker run --rm  bowwow/elastic-sync-autobuild /usr/bin/sync.sh
 
 sync.sh: 
 ex:
